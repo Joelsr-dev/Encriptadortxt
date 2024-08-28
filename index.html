@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="./Style/Style.css">
+</head>
+<body>
+    <header>
+        <div class="header-assets">
+            <img class="LogoAlura" src="./assets/Logo.png" alt="LogoAlura">
+            <h1>Encriptador de Texto</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <!--Seccion de la izquierda-->
+            <div class="left-section">
+                <textarea id="campoTexto" placeholder="Escribe el texto aquí..."></textarea>
+                <p class="Advertencia">Solo se aceptan letras minúsculas, sin acentos.</p>
+                <!--Botones-->
+                <div class="buttons">
+                    <button class="btn-Encriptar" onclick=botonEncriptar()> Encriptar </button>
+                    <button class="btn-Desencriptar" onclick=botonDesencriptar()> Desencriptar </button>
+                    <button class="btn-Limpiar" onclick=limpiarCampos()> Limpiar </button>
+                </div>
+                
+            </div>
+        
+            <!--Seccion de la derecha-->
+            <div class="right-section">
+                <textarea id="campoMensaje" placeholder="Aquí se mostrará el texto Encriptado-Desencriptado" readonly></textarea>
+                <button id="botonCopiar" class="copy-button" onclick=botonCopiar()>Copiar texto</button>
+                <p id="mensajes" style="display: none;"></p>
+                <img id="imagenSalida" src="./assets/Muñeco.png">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Desarrollado por Joel Sebastian.</p>
+    </footer>
+
+    <!-- Referencia al archivo JS-->
+    <script src="script.js"></script>
+</body>
+</html>
