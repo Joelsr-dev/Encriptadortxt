@@ -27,10 +27,8 @@ Este proyecto es un **encriptador de texto** simple que convierte cadenas de tex
 3. **Ejemplo de uso:**
    ```plaintext
    Entrada: "hola mundo"
-   Salida: "ipmb ovndo"
+   Salida: "Hoberlai Mufatndober"
 
-   Entrada: "texto con acentos"
-   Salida: "texo con acentos"  (los caracteres con acentos son ignorados)
 4. **Consideraciones:**
 - El encriptador no admite caracteres especiales como !@#$%, acentos como áéíóú, letras mayúsculas, ni la letra ñ.
 - Se recomienda ingresar solo texto en minúsculas y sin acentos para asegurar un proceso de encriptación correcto.
